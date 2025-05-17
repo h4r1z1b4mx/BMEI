@@ -9,7 +9,7 @@ const AboutUsBox = () => {
         <div className="about-col">
           <h1>Welcome to Bharat Matha Tutorial</h1>
           <p>
-            Bharat Matha Tutorial is one of the most trusted coaching centers in Surandai, Tamil Nadu.
+            Bharat Matha Educational Institution is one of the most trusted coaching centers in Surandai, Tamil Nadu.
             We specialize in guiding students from school to college level with personalized support,
             experienced faculty, and proven teaching methods. Our goal is to help every student achieve academic success,
             whether it’s SSLC, HSC, or university degrees. We believe that with the right guidance, every student can shine.
