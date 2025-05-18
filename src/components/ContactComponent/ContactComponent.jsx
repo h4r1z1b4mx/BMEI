@@ -17,13 +17,13 @@ const ContactComponent = () => {
     const message = form.current.message.value;
     const phonenumber = form.current.number.value;
 
-    const fullMessage = `From: ${name}\nEmail: ${email}\n\n${message}\n\n${phonenumber}`;
+    const fullMessage = `From: ${name}\nEmail: ${email}\nSubject: ${message}\nCell No: ${phonenumber}`;
 
     setSending(true);
 
     try {
       const response = await axios.post("https://mail-sender-endpoint.onrender.com/send-email", {
-        to: "harizibamv@gmail.com",
+        to: "tutorialbharathmatha@gmail.com",
         subject: subject,
         text: fullMessage,
       });
@@ -66,7 +66,7 @@ const ContactComponent = () => {
           <div>
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
             <span>
-              <h5>info@bharatmatha.com</h5>
+              <h5>tutorialbharathmatha@gmail.com</h5>
               <p>Email us for any queries</p>
             </span>
           </div>
